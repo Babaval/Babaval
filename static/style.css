@@ -1,0 +1,69 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #87CEEB; /* Sky Blue */
+    color: #333; /* Dark Gray for text */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Starting Page */
+.starting-bg {
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+/* Learn About Spam Page */
+.learn-bg {
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+/* Result Page */
+.ham-bg {
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+.spam-bg {
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+/* Buttons */
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007BFF; /* Blue */
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6C757D; /* Gray */
+    border: none;
+}
+
+.btn-info {
+    background-color: #17A2B8; /* Teal */
+    border: none;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
